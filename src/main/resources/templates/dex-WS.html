@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Pokédex Sable Blanc</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <script src="script.js"></script>
+</head>
+<body>
+	<h5><a href="/">Retour</a></h5> <h5><a href="/dex-maker/dex-BG" class="bg">Verre Noir</a></h5>
+  <h1 class="ws">Pokémon Sable Blanc</h1>
+  <div th:each="imageName : ${imageNames}">
+	  <img th:src="@{${'/dex/'+imageName}}" />
+  </div>
+</body>
+</html>

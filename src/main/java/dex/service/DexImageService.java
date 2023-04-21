@@ -11,6 +11,7 @@ import java.nio.file.Paths;
 
 import javax.imageio.ImageIO;
 
+import dex.constants.AppConstants;
 import dex.constants.PokemonType;
 import dex.constants.PokemonVersion;
 import dex.entities.Pokemon;
@@ -61,11 +62,9 @@ public abstract class DexImageService {
 	protected static int SIZE_NORMAL = 22;
 	
 	
-	
 	public DexImageService (PokemonVersion version) throws IOException {
 		this.version = version;
 		this.path = this.getTemplatePath();
-		
 		this.image = ImageIO.read(new File(path));
 		this.graphics = this.image.getGraphics();
 	}
@@ -171,7 +170,7 @@ public abstract class DexImageService {
 		if (type == null) {
 			return null;
 		} else {
-			return ImageIO.read(new File("src/main/resources/types/"+type+".png"));
+			return ImageIO.read(new File(AppConstants.GLOBAL_RESOURCES_IMG_PATH+"/types/"+type+".png"));
 		}
 	}
 	
@@ -191,9 +190,9 @@ public abstract class DexImageService {
 	
 	private BufferedImage getPokemonSpriteFront(Pokemon pokemon) throws IOException {
 		try {
-			return ImageIO.read(new File("src/main/resources/sprites/front/"+pokemon.getValidName()+".png"));
+			return ImageIO.read(new File(AppConstants.GLOBAL_RESOURCES_IMG_PATH+"/sprites/front/"+pokemon.getValidName()+".png"));
 		} catch (IOException e) {
-			return ImageIO.read(new File("src/main/resources/templates/sprite_front_placeholder.png"));
+			return ImageIO.read(new File(AppConstants.GLOBAL_RESOURCES_IMG_PATH+"/templates/sprite_front_placeholder.png"));
 		}
 	}
 	
@@ -213,9 +212,9 @@ public abstract class DexImageService {
 	
 	private BufferedImage getPokemonIcon(Pokemon pokemon) throws IOException {
 		try {
-			return ImageIO.read(new File("src/main/resources/sprites/icon/"+pokemon.getValidName()+".png"));
+			return ImageIO.read(new File(AppConstants.GLOBAL_RESOURCES_IMG_PATH+"/sprites/icon/"+pokemon.getValidName()+".png"));
 		} catch (IOException e) {
-			return ImageIO.read(new File("src/main/resources/templates/icon_placeholder.png"));
+			return ImageIO.read(new File(AppConstants.GLOBAL_RESOURCES_IMG_PATH+"/templates/icon_placeholder.png"));
 		}
 	}
 	

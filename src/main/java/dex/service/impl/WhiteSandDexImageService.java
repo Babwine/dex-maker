@@ -3,6 +3,7 @@ package dex.service.impl;
 import java.awt.Color;
 import java.io.IOException;
 
+import dex.constants.AppConstants;
 import dex.constants.PokemonVersion;
 import dex.entities.Pokemon;
 import dex.service.DexImageService;
@@ -30,7 +31,7 @@ public class WhiteSandDexImageService extends DexImageService  {
 	}
 	
 	public void generateDexEntryImage(Pokemon pokemon) throws IOException {
-        super.generateDexEntryImage(pokemon, "src/main/resources/dex/", "_WS");
+        super.generateDexEntryImage(pokemon, AppConstants.GLOBAL_RESOURCES_STATIC_PATH+"/dex/", "_WS");
 	}
 
 
