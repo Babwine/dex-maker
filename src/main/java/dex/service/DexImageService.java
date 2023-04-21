@@ -27,7 +27,7 @@ public abstract class DexImageService {
 	protected static int ENTRY_MAX_LENGTH = 55;
 	
 	protected static int SPRITE_FRONT_X = 10;
-	protected static int SPRITE_FRONT_Y = 60;
+	protected static int SPRITE_FRONT_Y = 80;
 
 	protected static int ICON_X = 267;
 	protected static int ICON_Y = 174;
