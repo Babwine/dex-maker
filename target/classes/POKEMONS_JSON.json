@@ -1,0 +1,210 @@
+[
+	{
+		"id": 1,
+		"name": "Farfuret Yagor",
+		"category": "Crisseroche",
+		"height": 0.9,
+		"weight": 36.2,
+		"type1": "ROCK",
+		"type2": "GHOST",
+		"dexEntries": {
+	      "WHITE_SAND": "L'éclat d'obsidienne transperçant son crâne l'a rendu fou.Désormais, seul le son de ses griffes de quartz crissant sur la roche parvient à l'apaiser.",
+	      "BLACK_GLASS": "Certaines nuits, l'écho des cris plaintifs de Farfuret retentit dans les montagnes. Nul humain resté dehors en ces instants n'en ressort indemne."
+      }
+	},
+	{
+		"id": 2,
+		"name": "Dimoret Yagor",
+		"category": "Crisseroche",
+		"height": 1.2,
+		"weight": 40.6,
+		"type1": "ROCK",
+		"type2": "GHOST",
+		"dexEntries": {
+	      "WHITE_SAND": "Il aime terrifier les humains en aiguisant ses griffes sur leurs murs après minuit. Quiconque touche son fragment d'obsidienne s'évanouit sur-le-champ.",
+	      "BLACK_GLASS": "Après avoir lacéré ses victimes, il absorbe leur force vitale avec sa pointe. Il n'accorde son respect qu'à celui capable de le regarder dans les yeux."
+      }
+	},
+	{
+		"id": 3,
+		"name": "Barpau Yagor",
+		"category": "Hideux Abyssal",
+		"height": 0.6,
+		"weight": 7.4,
+		"type1": "PSYCHIC",
+		"type2": "POISON",
+		"dexEntries": {
+	      "WHITE_SAND": "Condamné à vivre dans les recoins les plus sombres des abysses, il utilise le pouvoir psychique de ses orbes et sa queue toxique pour se défendre.",
+	      "BLACK_GLASS": "Il attire ses proies avec la lumière qui se dégage de ses orbes. Pokémon des profondeurs, il ne cesse pourtant de tenter d'atteindre la surface."
+      }
+	},
+	{
+		"id": 4,
+		"name": "Milobellus Yagor",
+		"category": "Mythique Marin",
+		"height": 8.7,
+		"weight": 226.1,
+		"type1": "PSYCHIC",
+		"type2": "DRAGON",
+		"dexEntries": {
+	      "WHITE_SAND": "Remonté à la surface grâce à ses pouvoirs psychiques décuplés, il est à l'origine d'une légende selon laquelle un monstre habiterait les Îles Osseuses.",
+	      "BLACK_GLASS": "Peu de Barpau parviennent à remonter des abysses, mais ceux qui survivent évoluent et développent une perception psychique proche de l'empathie humaine."
+      }
+	},
+	{
+		"id": 5,
+		"name": "Rapion de Masou'Kiana",
+		"category": "Rochélastique",
+		"height": 2.1,
+		"weight": 37,
+		"type1": "ROCK",
+		"type2": "PSYCHIC",
+		"dexEntries": {
+	      "WHITE_SAND": "Il se cache contre le sol, bombarde ses proies de pierres puis sautille péniblement vers elles. Il adore effrayer les passants en surgissant soudainement.",
+	      "BLACK_GLASS": "Il lui arrive de provoquer de petits éboulis lorsqu'il s'exerce à propulser des rochers. Il ne voyage pas, déplacer son socle étant trop ardu."
+      }
+	},
+	{
+		"id": 6,
+		"name": "Drascore de Masou'Kiana",
+		"category": "Rochélastique",
+		"height": 4.2,
+		"weight": 127.2,
+		"type1": "ROCK",
+		"type2": "PSYCHIC",
+		"dexEntries": {
+	      "WHITE_SAND": "Ses pouvoirs sont assez grands pour déplacer son socle librement. Les éméraudes qui composent ses armes attirent les proies par leur éclat fugace.",
+	      "BLACK_GLASS": "Drascore est l'un des Pokémon les plus rusés des montagnes rocailleuses de Masou'Kiana. Ses éclats d'émeraude naissent de ses pouvoirs psychiques."
+      }
+	},
+	{
+		"id": 7,
+		"name": "Laporeille d'Erutan",
+		"category": "Pot-de-Lapin",
+		"height": 0.4,
+		"weight": 2.8,
+		"type1": "GRASS",
+		"type2": "",
+		"dexEntries": {
+	      "WHITE_SAND": "Son pot est tressé de fibres provenant de la boule cottoneuse qui recouvre sa taille. Il peut lui faire adopter la forme de petites pattes pour se déplacer.",
+	      "BLACK_GLASS": "À l'état sauvage, nul ne voit ce Pokémon se mouvoir, parce qu'il est si timide qu'il tente généralement de se faire passer pour une très jolie plante fleurie."      
+	  }
+	},
+	{
+		"id": 8,
+		"name": "Lapompom",
+		"category": "Pompon",
+		"height": 1.1,
+		"weight": 17.3,
+		"type1": "GRASS",
+		"type2": "FAIRY",
+		"dexEntries": {
+	      "WHITE_SAND": "Ce Pokémon est souvent déifié par certains habitants des forêts d'Erutan. On dit que si un Lapompom vous offre une fleur, vos rêves se réaliseront forcément.",
+	      "BLACK_GLASS": "Ayant surmonté sa timidité, il exprime désormais ses émotions librement. Cela se manifeste par une danse libératrice qui apaise le coeur de quiconque l'admire."
+	  }
+	},
+	{
+		"id": 9,
+		"name": "Stygeon",
+		"category": "Bourgeon",
+		"height": 0.3,
+		"weight": 7.6,
+		"type1": "GRASS",
+		"type2": "GHOST",
+		"dexEntries": {
+	      "WHITE_SAND": "Stygeon vit près des rivières. Bien que les Pokémon Plante absorbent habituellement la lumière du jour, lui se baigne dans l'éclat doux de la lune.",
+	      "BLACK_GLASS": "Ce Pokémon est particulièrement dangereux les nuits sans lune. En effet, sans lumière, il se nourrit en consommant la force vitale de son entourage."
+      }
+	},
+	{
+		"id": 10,
+		"name": "Asphomnol",
+		"category": "Florassoupie",
+		"height": 0.7,
+		"weight": 10.3,
+		"type1": "GRASS",
+		"type2": "GHOST",
+		"dexEntries": {
+	      "WHITE_SAND": "Évoluer a tant épuisé ce Pokémon qu'il est désormais plongé dans un état léthargique permanent. Les volutes spirituelles sortant de ses yeux sont ses pensées.",
+	      "BLACK_GLASS": "Les pensées qui coulent de ses yeux réagissent avec ce qu'elles touchent selon ses émotions. La colère lui fait ouvrir brusquement les yeux, le rendant dangereux."
+      }
+	},
+	{
+		"id": 11,
+		"name": "Léthasphodel",
+		"category": "Floramnésique",
+		"height": 2.7,
+		"weight": 23.6,
+		"type1": "GRASS",
+		"type2": "GHOST",
+		"dexEntries": {
+	      "WHITE_SAND": "Tous les souvenirs non essentiels de ce Pokémon ont coulé de ses yeux et tournent désormais autour de lui. Leur force centrifuge lui permet de léviter.",
+	      "BLACK_GLASS": "Grâce à son amnésie volontaire, Léthasphodel peut ignorer les pensées parasites, et se concentrer sur ses attaques spirituelles, même parfaitement endormi."
+      }
+	},
+	{
+		"id": 12,
+		"name": "Hoplys",
+		"category": "Fantassin",
+		"height": 0,
+		"weight": 0,
+		"type1": "GRASS",
+		"type2": "FIGHTING",
+		"dexEntries": {
+	      "WHITE_SAND": "",
+	      "BLACK_GLASS": ""
+      }
+	},
+	{
+		"id": 13,
+		"name": "Myrmiscus",
+		"category": "Héroïque",
+		"height": 0,
+		"weight": 0,
+		"type1": "GRASS",
+		"type2": "FIGHTING",
+		"dexEntries": {
+	      "WHITE_SAND": "",
+	      "BLACK_GLASS": ""
+      }
+	},
+	{
+		"id": 14,
+		"name": "Tantaccule",
+		"category": "Ligneux Damné",
+		"height": 2.1,
+		"weight": 90.3,
+		"type1": "GRASS",
+		"type2": "DARK",
+		"dexEntries": {
+	      "WHITE_SAND": "Tantaccule appâte ses proies affamées avec son fruit en apparence délicieux. Ce dernier semble rempli d'eau fraîche, mais la boire ne fait qu'exacerber la soif.",
+	      "BLACK_GLASS": "Tout au long de sa vie, un seul fruit pousse sur son corps. Ainsi, si Tantaccule le perd, il mourra, devenu incapable d'attirer une proie pour se nourrir."
+      }
+	},
+	{
+		"id": 15,
+		"name": "Tentachéron",
+		"category": "Épouvantarbre",
+		"height": 4.2,
+		"weight": 167,
+		"type1": "GRASS",
+		"type2": "DARK",
+		"dexEntries": {
+	      "WHITE_SAND": "Ce Pokémon n'a été aperçu que peu de fois, car il vit dans les bois les plus sombres, loin de toute source lumineuse. Son fruit envoûtant est un appât mortel.",
+	      "BLACK_GLASS": "Les grand-parents utilisent de lugubres mythes et contes sur Tentachéron pour dissuader les enfants imprudents. Nul ne sait quel est le goût de son fruit."
+      }
+	},
+	{
+		"id": 999,
+		"name": "Vindictini",
+		"category": "Revanchard",
+		"height": 0.4,
+		"weight": 4,
+		"type1": "DARK",
+		"type2": "",
+		"dexEntries": {
+	      "WHITE_SAND": "Nul ne sait pourquoi il porte ce pendentif de rubis. Il s'est peint de faux yeux derrière la tête pour effrayer quiconque ose l'attaquer dans le dos.",
+	      "BLACK_GLASS": "Le jumeau maléfique de Victini. On dit qu'ayant perdu face à lui, ce mauvais perdant pourchasserait le Pokémon de la Victoire pour le combattre à nouveau."
+      }
+	}
+]
